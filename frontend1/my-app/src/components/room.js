@@ -200,6 +200,9 @@ export default function Room() {
    <Button onClick={() => { navigate("/addRoom") }} variant="contained" color="primary" disableElevation>
   ADD ROOM
 </Button>
+<Button onClick={() => { navigate("/createHotspot") }} variant="contained" color="primary" disableElevation style={{marginLeft:'10px'}}>
+  Create Hotspot
+</Button>
 <br></br>
 <br></br>
 
